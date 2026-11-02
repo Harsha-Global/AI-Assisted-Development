@@ -18,20 +18,20 @@ The commands below start from the extracted repository's top folder.
 For Meet Your Demo Project, Understand Code with Claude Code and Your First AI Code Change, start with:
 
 ```text
-03. AI in a Repository/03.01. Meet Your Demo Project/Starter
+03. AI in a Repository/02. Meet Your Demo Project/Starter
 ```
 
 On macOS/Linux:
 
 ```text
-cp -R "03. AI in a Repository/03.01. Meet Your Demo Project/Starter" ../developer-notes-search-practice
+cp -R "03. AI in a Repository/02. Meet Your Demo Project/Starter" ../developer-notes-search-practice
 cd ../developer-notes-search-practice
 ```
 
 On Windows PowerShell:
 
 ```text
-Copy-Item -Recurse "03. AI in a Repository/03.01. Meet Your Demo Project/Starter" ../developer-notes-search-practice
+Copy-Item -Recurse "03. AI in a Repository/02. Meet Your Demo Project/Starter" ../developer-notes-search-practice
 Set-Location ../developer-notes-search-practice
 ```
 
@@ -69,7 +69,7 @@ If Git asks for your identity, configure your own name and email. Start Claude C
 
 After the search fix, keep working in your own practice folder. All 7 checks should now pass. Turn a Request into a Plan and Build a Feature You Can Use start from that reviewed fix.
 
-If you need a clean reference, [03.03 Completed](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/03.03.%20Your%20First%20AI%20Code%20Change/Completed) contains the reviewed fix. [04.03 Completed](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/04.%20Review%20and%20Next%20Steps/04.03.%20Build%20a%20Feature%20You%20Can%20Use/Completed) contains the finished command-line feature. Copy either to a fresh practice folder when needed. These are separate source snapshots, not branches of one working project.
+If you need a clean reference, [Reviewed search fix](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/04.%20Your%20First%20AI%20Code%20Change/Completed) contains the reviewed fix. [Completed command-line feature](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/04.%20Review%20and%20Next%20Steps/03.%20Build%20a%20Feature%20You%20Can%20Use/Completed) contains the finished command-line feature. Copy either to a fresh practice folder when needed. These are separate source snapshots, not branches of one working project.
 
 The feature command is `python3 search_notes.py "  GIT  "` (Windows: `py -3 search_notes.py "  GIT  "`). It should print Git basics. Missing input should display usage and exit nonzero.
 

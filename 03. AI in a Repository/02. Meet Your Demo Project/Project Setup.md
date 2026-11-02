@@ -7,9 +7,9 @@ Open the course's Download and Set Up the Project article for exact copy/setup c
 
 ## Choose the right starting files
 
-- Before the search fix: [03.01 Starter](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/03.01.%20Meet%20Your%20Demo%20Project/Starter).
-- After the reviewed search fix, before planning the command-line feature: [03.03 Completed](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/03.03.%20Your%20First%20AI%20Code%20Change/Completed).
-- Finished command-line feature: [04.03 Completed](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/04.%20Review%20and%20Next%20Steps/04.03.%20Build%20a%20Feature%20You%20Can%20Use/Completed).
+- Before the search fix: [Starter project](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/02.%20Meet%20Your%20Demo%20Project/Starter).
+- After the reviewed search fix, before planning the command-line feature: [Reviewed search fix](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/03.%20AI%20in%20a%20Repository/04.%20Your%20First%20AI%20Code%20Change/Completed).
+- Finished command-line feature: [Completed command-line feature](https://github.com/Harsha-Global/AI-Assisted-Development/tree/main/04.%20Review%20and%20Next%20Steps/03.%20Build%20a%20Feature%20You%20Can%20Use/Completed).
 
 Copy the contents of the chosen source folder to a separate practice folder.
 Open that practice folder in your editor and terminal. Initialize Git there if you want to follow the diff/commit demonstrations. Keep the downloaded course materials as your reference copy.
