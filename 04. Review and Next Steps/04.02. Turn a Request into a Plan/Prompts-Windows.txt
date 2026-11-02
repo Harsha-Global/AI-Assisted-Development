@@ -1,0 +1,5 @@
+Read README.md, search.py, demo.py, notes.json and check_search.py in this repository. Do not edit files, run commands, commit or push yet.
+Plan a small command-line feature: py -3 search_notes.py "query" should search the existing notes and print each matching title on its own line. If there are no matches, print exactly "No matching notes.".
+Require one query argument. If it is missing, show usage and exit with a nonzero status. Use Python's standard-library argparse for this; do not add packages.
+Reuse the existing find_notes function and notes.json. Preserve the accepted whitespace and case behavior. The only permitted changes in the implementation will be a new search_notes.py and a short usage addition in README.md. Leave the existing files, data and checks unchanged.
+In at most 140 words, propose the input-to-output path, the two file changes and how to check matching, no matches, whitespace-only input and a missing argument. Wait for the implementation request.

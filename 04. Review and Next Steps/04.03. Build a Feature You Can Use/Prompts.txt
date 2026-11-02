@@ -1,0 +1,10 @@
+Implement the agreed plan now. Create search_notes.py and add its usage to README.md only.
+Use argparse to require one positional query. Load the existing notes.json relative to the script file, import find_notes from search.py, and print each matching title on its own line. If the result is empty, print exactly "No matching notes.". Do not duplicate the matching logic or change search.py, demo.py, notes.json or check_search.py. Use only the Python standard library.
+Run these commands separately and report each actual output and exit status:
+python3 search_notes.py "  GIT  "
+python3 search_notes.py "code"
+python3 search_notes.py "missing-note"
+python3 search_notes.py "   "
+python3 search_notes.py
+python3 check_search.py
+The missing-argument command is expected to exit nonzero with usage; do not treat that expected rejection as an implementation failure. Fix only problems within the agreed scope. Do not commit or push.

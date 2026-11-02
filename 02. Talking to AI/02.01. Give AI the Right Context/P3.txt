@@ -1,0 +1,1 @@
+Separate what follows directly from the supplied function from what would require the surrounding project. Can you tell from this snippet whether the caller removes spaces before passing the query? Identify that uncertainty and one focused check. Keep it under 100 words. Do not write a fix or claim that you ran the code.

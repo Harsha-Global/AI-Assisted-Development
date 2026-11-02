@@ -1,0 +1,21 @@
+Run each command separately in your own practice project folder.
+On Windows with the Python launcher, replace python3 with py -3.
+
+git status --short
+git diff --stat
+git diff -- search.py
+python3 check_search.py
+
+After checking the change and all 7 passing cases:
+git add -- search.py
+git diff --cached -- search.py
+git commit -m "Ignore surrounding whitespace in note search"
+
+To share your work, create an empty repository in YOUR GitHub account, set it
+as your origin, and push there. Do not push to the instructor's repository.
+For example, after copying your own repository's HTTPS URL:
+git remote add origin YOUR-REPOSITORY-HTTPS-URL
+git push -u origin main
+
+If origin already exists, inspect it with git remote -v before changing anything.
+Open the pushed commit in your own GitHub repository and compare it with your local commit.

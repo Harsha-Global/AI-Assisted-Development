@@ -1,0 +1,5 @@
+Change only search.py so find_notes ignores leading and trailing whitespace in the query.
+Keep case-insensitive substring matching and the original note order. Empty and whitespace-only queries must return an empty list.
+Do not change the note titles, demo.py, check_search.py, dependencies or other files.
+After the edit, run py -3 demo.py and py -3 check_search.py. If a check fails, inspect the cause and correct search.py within the same scope.
+Briefly summarize the changed behavior and actual command results. Do not commit or push.

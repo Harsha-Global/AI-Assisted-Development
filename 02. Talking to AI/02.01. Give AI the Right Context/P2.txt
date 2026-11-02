@@ -1,0 +1,8 @@
+Use the same function with these notes:
+["Git basics", "Python tips", "Code review checklist"]
+
+The query "git" finds "Git basics", but "  git  " returns no matches when passed directly to this function. The second query has two spaces on each side.
+
+The requirement is that spaces around the query should be ignored, while the existing case-insensitive matching should keep working.
+
+Explain why the current function gives different results, and point to the relevant expression. Keep it under 100 words. Do not write a fix yet, and do not claim to have run the code.

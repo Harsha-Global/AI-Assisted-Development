@@ -1,0 +1,21 @@
+Run from your own practice project. On Windows replace python3 with py -3.
+
+python3 search_notes.py "  GIT  "
+python3 search_notes.py "code"
+python3 search_notes.py "missing-note"
+python3 search_notes.py "   "
+python3 search_notes.py
+# The last command must show usage and exit nonzero because the query is missing.
+# Immediately inspect its exit status with echo $? (macOS/Linux)
+# or $LASTEXITCODE (PowerShell).
+python3 check_search.py
+
+git status --short
+git diff -- README.md
+# Read search_notes.py in your editor: an untracked file is absent from plain git diff.
+git add -- search_notes.py README.md
+git diff --cached
+# After accepting the source and observed results:
+git commit -m "Add command-line note search"
+# Only if origin points to YOUR repository:
+git push -u origin main

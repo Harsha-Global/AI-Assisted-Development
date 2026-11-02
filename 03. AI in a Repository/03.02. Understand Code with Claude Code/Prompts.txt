@@ -1,0 +1,4 @@
+Explore this small repository without modifying files, running commands, committing or pushing.
+Read README.md, search.py, demo.py, notes.json and check_search.py.
+In at most 150 words, explain what the project does, identify the function that matches note titles, and trace how demo.py passes the query to it.
+Point to the relevant files and expressions. Explain how the current function treats case and surrounding spaces. Do not propose or apply a fix yet. If something is not established by these files, say so.
